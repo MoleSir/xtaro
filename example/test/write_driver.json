@@ -1,0 +1,12 @@
+{
+    "tech_path" : "./technology/tsmcn28",
+    "output_path" : "./output/tsmcn28",
+    "build_backend" : true,
+
+    "circuit" : {
+        "type" : "wrap_write_driver",
+        "arguments" : {
+            "fo" : 4
+        }
+    }
+}

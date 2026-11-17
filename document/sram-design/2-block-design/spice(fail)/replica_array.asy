@@ -1,0 +1,15 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -50 560 60 -590
+PIN 0 -592 TOP 8
+PINATTR PinName p_en_bar
+PINATTR SpiceOrder 1
+PIN 0 560 BOTTOM 8
+PINATTR PinName we
+PINATTR SpiceOrder 2
+PIN 32 560 BOTTOM 8
+PINATTR PinName wl
+PINATTR SpiceOrder 3
+PIN -32 560 BOTTOM 8
+PINATTR PinName rbl
+PINATTR SpiceOrder 4

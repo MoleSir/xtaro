@@ -1,0 +1,9 @@
+{
+    "source": {
+        "vdd": "vdd",
+        "gnd": "gnd"
+    },
+
+    "modules" : {        
+    }
+}

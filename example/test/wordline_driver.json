@@ -1,0 +1,12 @@
+{
+    "tech_path" : "./technology/freepdk45",
+    "output_path" : "./temp/output_freepdk45",
+    "build_backend" : true,
+
+    "circuit" : {
+        "type" : "wordline_driver",
+        "arguments" : {
+            "fo" : 4
+        }
+    }
+}

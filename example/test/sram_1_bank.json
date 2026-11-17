@@ -1,0 +1,14 @@
+{
+    "tech_path" : "./technology/freepdk45",
+    "output_path" : "./output/freepdk45",
+    "build_backend" : true,
+
+    "circuit" : {
+        "type" : "sram_1_bank",
+        "arguments" : {
+            "aw" : 10,
+            "caw": 4,
+            "ww" : 8
+        }
+    }
+}

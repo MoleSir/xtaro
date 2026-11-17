@@ -1,0 +1,114 @@
+{
+    "poly_stack"   : ["poly", "contact", "m1"],
+    "active_stack" : ["active", "contact", "m1"],
+    "m1_stack"     : ["m1", "via1", "m2"],
+    "m2_stack"     : ["m2", "via2", "m3"],
+    "m3_stack"     : ["m3", "via3", "m4"],
+
+    "indices" : {
+        "poly" : 0,
+        "active" : 0,
+        "m1" : 1,
+        "m2" : 2,
+        "m3" : 3,
+        "m4" : 4
+    },
+
+    "feol_stacks" : [
+        ["poly", "contact", "m1"],
+        ["active", "contact", "m1"]
+    ],
+
+    "beol_stacks" : [
+        ["m1", "via1", "m2"],
+        ["m2", "via2", "m3"],
+        ["m3", "via3", "m4"]
+    ],
+
+    "stacks" : [
+        ["poly", "contact", "m1"],
+        ["active", "contact", "m1"],
+        ["m1", "via1", "m2"],
+        ["m2", "via2", "m3"],
+        ["m3", "via3", "m4"]
+    ],
+
+    "directions" : {
+        "poly" : "V",
+        "active" : "V",
+        "m1" : "H",
+        "m2" : "V",
+        "m3" : "H",
+        "m4" : "V"
+    },
+
+    "power_grid" : ["m3", "via3", "m4"],
+
+    "masks" : {
+        "active"   : 1,
+        "pwell"    : 2,
+        "nwell"    : 3,
+        "nimplant" : 4,
+        "pimplant" : 5,
+        "vtg"      : 6,
+        "vth"      : 7,
+        "thkox"    : 8,
+        "poly"     : 9,
+        "contact"  : 10,
+        "m1"       : 11,
+        "via1"     : 12,
+        "m2"       : 13,
+        "via2"     : 14,
+        "m3"       : 15,
+        "via3"     : 16,
+        "m4"       : 17,
+        "via4"     : 18,
+        "m5"       : 19,
+        "via5"     : 20,
+        "m6"       : 21,
+        "via6"     : 22,
+        "m7"       : 23,
+        "via7"     : 24,
+        "m8"       : 25,
+        "via8"     : 26,
+        "m9"       : 27,
+        "via9"     : 28,
+        "m10"      : 29,
+        "text"     : 239,
+        "boundary" : 239
+    },
+
+    "names" : {
+        "active"   : "active"  ,
+        "pwell"    : "pwell"   ,
+        "nwell"    : "nwell"   ,
+        "nimplant" : "nimplant",
+        "pimplant" : "pimplant",
+        "vtg"      : "vtg"     ,
+        "vth"      : "vth"     ,
+        "thkox"    : "thkox"   ,
+        "poly"     : "poly"    ,
+        "contact"  : "contact" ,
+        "m1"       : "metal1"  ,
+        "via1"     : "via1"    ,
+        "m2"       : "metal2"  ,
+        "via2"     : "via2"    ,
+        "m3"       : "metal3"  ,
+        "via3"     : "via3"    ,
+        "m4"       : "metal4"  ,
+        "via4"     : "via4"    ,
+        "m5"       : "metal5"  ,
+        "via5"     : "via5"    ,
+        "m6"       : "metal6"  ,
+        "via6"     : "via6"    ,
+        "m7"       : "metal7"  ,
+        "via7"     : "via7"    ,
+        "m8"       : "metal8"  ,
+        "via8"     : "via8"    ,
+        "m9"       : "metal9"  ,
+        "via9"     : "via9"    ,
+        "m10"      : "metal10" ,
+        "text"     : "text"    ,
+        "boundary" : "boundary"
+    }
+}

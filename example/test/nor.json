@@ -1,0 +1,13 @@
+{
+    "tech_path" : "./technology/tsmcn28",
+    "output_path" : "./output/tsmcn28",
+    "build_backend" : true,
+
+    "circuit" : {
+        "type" : "wrap_nor",
+        "arguments" : {
+            "da" : "x1",
+            "is" : 3
+        }
+    }
+}

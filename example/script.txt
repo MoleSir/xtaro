@@ -1,0 +1,3 @@
+config ./example/option.json
+compile
+write --spice --verilog

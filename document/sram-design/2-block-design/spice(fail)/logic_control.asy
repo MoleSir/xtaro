@@ -1,0 +1,36 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal 240 255 -208 -239
+PIN -160 256 BOTTOM 8
+PINATTR PinName clk
+PINATTR SpiceOrder 1
+PIN -112 256 BOTTOM 8
+PINATTR PinName csb
+PINATTR SpiceOrder 2
+PIN -48 -240 LEFT 8
+PINATTR PinName rbl
+PINATTR SpiceOrder 3
+PIN -64 256 BOTTOM 8
+PINATTR PinName we
+PINATTR SpiceOrder 4
+PIN -192 -240 TOP 8
+PINATTR PinName p_bar_en
+PINATTR SpiceOrder 5
+PIN -208 32 LEFT 8
+PINATTR PinName sa_en
+PINATTR SpiceOrder 6
+PIN -144 -240 BOTTOM 8
+PINATTR PinName we_en
+PINATTR SpiceOrder 7
+PIN -96 -240 TOP 8
+PINATTR PinName wl_en
+PINATTR SpiceOrder 8
+PIN 240 32 RIGHT 8
+PINATTR PinName sa_en
+PINATTR SpiceOrder 9
+PIN -208 208 LEFT 8
+PINATTR PinName we_en
+PINATTR SpiceOrder 10
+PIN 240 208 RIGHT 8
+PINATTR PinName we_en
+PINATTR SpiceOrder 11

@@ -1,0 +1,55 @@
+{
+
+    "tech_path" : "./technology/freepdk45",
+    "output_path" : "./temp/output_freepdk45",
+
+    "circuit" : {
+        "type" : "sram",
+        "arguments" : {
+            "aw" : 11,
+            "ww" : 8,
+            "mbist" : false
+        }
+    },
+
+    "stimulations" : {
+
+        "environment" : {
+            "process": "TT",
+            "supply_voltage": 1,
+            "temperature": 25,
+            "slew" : "0.05n"
+        },
+    
+        "add_clk" : true,
+    
+        "dc_stimulations" : {
+            "csb" : { "voltage" : 0 }
+        },
+    
+        "period_stimulations" : {
+            "we" : { "voltages" : [1, 1, 0, 0]  },
+
+            "addr0" : { "voltages" : [0, 1, 0, 1] },
+            "addr1" : { "voltages" : [1, 0, 1, 0] },
+            "addr2" : { "voltages" : [1, 0, 1, 0] },
+            "addr3" : { "voltages" : [0, 0, 0, 0] },
+            "addr4" : { "voltages" : [0, 0, 0, 0] },
+            "addr5" : { "voltages" : [1, 0, 1, 0] },
+            "addr6" : { "voltages" : [0, 0, 0, 0] },
+            "addr7" : { "voltages" : [1, 1, 1, 1] },
+            "addr8" : { "voltages" : [0, 0, 0, 0] },
+            "addr9" : { "voltages" : [1, 0, 1, 0] },
+            "addr10" : { "voltages" : [1, 0, 1, 0] },
+        
+            "din0" : { "voltages" : [1, 0] },
+            "din1" : { "voltages" : [0, 1] },
+            "din2" : { "voltages" : [1, 0] },
+            "din3" : { "voltages" : [0, 1] },
+            "din4" : { "voltages" : [1, 0] },
+            "din5" : { "voltages" : [0, 1] },
+            "din6" : { "voltages" : [1, 0] },
+            "din7" : { "voltages" : [0, 1] }
+        }
+    }
+}

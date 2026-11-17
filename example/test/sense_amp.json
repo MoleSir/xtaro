@@ -1,0 +1,43 @@
+{
+    "tech_path" : "./technology/freepdk45",
+    "output_path" : "./temp/output_freepdk45",
+    "build_backend" : false,
+
+    "circuit" : {
+        "type" : "sense_amp",
+        "arguments" : {}
+    },
+
+    "stimulations" : {
+
+        "environment" : {
+            "process": "TT",
+            "supply_voltage": 1,
+            "temperature": 25,
+            "slew" : "0.05n"
+        },
+    
+        "add_clk" : false,
+
+        "dc_stimulations" : {
+            "bl" : { "voltage" : 1 }
+        },
+    
+        "pwl_stimulations" : {
+            "en" : {
+                "voltages" : {
+                    "0n" : 0,
+                    "0.95n" : 0,
+                    "1.05n" : 1
+                }
+            },
+            "br" : {
+                "type" : "analog",
+                "voltages" : {
+                    "0n" : 1,
+                    "1n" : 0.8
+                }
+            }
+        }
+    }
+}

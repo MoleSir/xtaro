@@ -1,0 +1,20 @@
+{
+    "nmos" : "NMOS_VTG",
+    "pmos" : "PMOS_VTG",
+    "models" : {
+        "TT" : ["model/nom/nmos.sp", "model/nom/pmos.sp"],
+        "FF" : ["model/ff/nmos.sp", "model/ff/pmos.sp"],
+        "SS" : ["model/ss/nmos.sp", "model/ss/pmos.sp"]
+    },
+    
+    "period" : "5n",
+    "nom_supply_voltage" : 1,
+    "nom_temperature" : 25,
+
+    "dff_in_cap" : "0.2091p",
+    "rise_time"  : "0.005n",
+    "fall_time"  : "0.005n",
+
+    "dff_setup" : "0.009n",
+    "dff_hold" : "0.001n"
+}

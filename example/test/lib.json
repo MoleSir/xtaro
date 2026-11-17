@@ -1,0 +1,11 @@
+{
+    "tech_path" : "./technology/freepdk45",
+    "output_path" : "./temp/freepdk45",
+    "build_backend" : true,
+
+    "circuit" : {
+        "type" : "write_driver",
+        "arguments" : {
+        }
+    }
+}

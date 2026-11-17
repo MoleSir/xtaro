@@ -1,0 +1,34 @@
+{
+    "lib_name" : "freepdk 45",
+
+    "nmos_name" : "NMOS_VTG",
+    "pmos_name" : "PMOS_VTG",
+    
+    "normal_period" : "5n",
+    "normal_voltage" : 1,
+    "normal_temperature" : 25,
+
+    "dff_in_cap" : "0.2091p",
+    "dff_rise_time"  : "0.005n",
+    "dff_fall_time"  : "0.005n",
+    "dff_setup" : "0.009n",
+    "dff_hold" : "0.001n",
+
+    "mos_model_paths" : {
+        "TT" : { "nmos": "model/nom/nmos.sp", "pmos": "model/nom/pmos.sp"},
+        "FF" : { "nmos": "model/ff/nmos.sp", "pmos": "model/ff/pmos.sp"},
+        "SS" : { "nmos": "model/ss/nmos.sp", "pmos": "model/ss/pmos.sp"}
+    },
+
+    "grid_width" : "2.5n",
+    "gds_meters_per_dbunit" : "0.5n",
+
+    "spice_lib_path" : "spice_lib",
+    "gdsii_lib_path" : "gdsii_lib",
+    "tech_lef_path" : "tech.lef",
+
+    "drc_file_path" : "./tech/freepdk45.lydrc",
+    "lvs_file_path" : "./tech/freepdk45.lydrc",
+    
+    "lib_property_path" : "./property.json"
+}

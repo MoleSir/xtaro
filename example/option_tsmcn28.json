@@ -1,0 +1,16 @@
+{
+    "tech_path" : "./technology/tsmcn28",
+    "output_path" : "./output/tsmcn28",
+    
+    "word_width" : 4,
+    "address_width" : 5,
+    "mbist" : false,
+
+    "build_backend" : false,
+
+    "spice_simulator" : "ngspice",
+
+    "process_corners" : [],
+    "supply_voltages" : [],
+    "temperatures" : []
+}

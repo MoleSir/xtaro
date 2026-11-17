@@ -1,0 +1,13 @@
+{
+    "tech_path" : "./technology/tsmcn28",
+    "output_path" : "./output/tsmcn28",
+    "build_backend" : true,
+
+    "circuit" : {
+        "type" : "replicated_bitcell_array",
+        "arguments" : {
+            "rs": 128,
+            "cs": 128
+        }
+    }
+}

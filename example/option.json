@@ -1,0 +1,17 @@
+{
+    "tech_path" : "./technology/freepdk45",
+    "output_path" : "./output/freepdk45",
+    
+    "word_width" : 4,
+    "address_width" : 5,
+    "mbist" : false,
+
+    "build_backend" : false,
+    "function_test_policy" : "random",
+
+    "spice_simulator" : "ngspice",
+
+    "process_corners" : [],
+    "supply_voltages" : [],
+    "temperatures" : []
+}
